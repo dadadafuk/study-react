@@ -1,7 +1,8 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import {Footer} from '../components/Footer'
-import { Links } from '../components/Links'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import { Footer } from "../components/Footer";
+import { Links } from "../components/Links";
+import { HeadLine } from "../components/HeadLine";
 
 export default function Home() {
   return (
@@ -13,17 +14,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Index Page</h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+        <HeadLine page="index" />
 
         <Links />
       </main>
 
       <Footer />
     </div>
-  )
+  );
 }
