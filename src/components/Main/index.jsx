@@ -1,6 +1,6 @@
-import classes from "./Main.module.css";
-import { Links } from "../components/Links";
-import { HeadLine } from "../components/HeadLine";
+import classes from "src/components/Main/Main.module.css";
+import { Links } from "src/components/Links";
+import { HeadLine } from "src/components/Headline";
 
 export function Main(props) {
   return (
